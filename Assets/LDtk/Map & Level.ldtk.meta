@@ -1,0 +1,55 @@
+fileFormatVersion: 2
+guid: 02d233674c624ec4faf325421fa1e68c
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: aaa16bfc62c086f4fb45da87b6acf9b1, type: 3}
+  _reimportOnDependencyChange: 1
+  _jsonFile: {fileID: -164016180542632921, guid: 02d233674c624ec4faf325421fa1e68c, type: 3}
+  _pixelsPerUnit: 16
+  _customLevelPrefab: {instanceID: 0}
+  _intGridValueColorsVisible: 0
+  _useCompositeCollider: 1
+  _geometryType: 0
+  _createBackgroundColor: 1
+  _createLevelBoundsTrigger: 1
+  _useParallax: 1
+  _intGridValues:
+  - _key: Forest_Walls_1
+    _asset: {fileID: 11400000, guid: 499d6b2ae1b6997479d8277dc43b11b4, type: 2}
+  - _key: Rock_Walls_1
+    _asset: {fileID: 11400000, guid: 499d6b2ae1b6997479d8277dc43b11b4, type: 2}
+  - _key: Water_Forest_Walls_1
+    _asset: {fileID: 11400000, guid: 499d6b2ae1b6997479d8277dc43b11b4, type: 2}
+  - _key: Water_Rock_Walls_1
+    _asset: {fileID: 11400000, guid: 499d6b2ae1b6997479d8277dc43b11b4, type: 2}
+  - _key: Water_Background_1
+    _asset: {instanceID: 0}
+  - _key: Collider_1
+    _asset: {fileID: 11400000, guid: 499d6b2ae1b6997479d8277dc43b11b4, type: 2}
+  _entities:
+  - _key: Slime
+    _asset: {fileID: 4652230773795432118, guid: bad657881e74d2345abcf8a6954ee27d, type: 3}
+  - _key: Ogre
+    _asset: {fileID: 7020671854642094810, guid: 4f6ad519ed5a7724d8fc5aae6ee5ea82, type: 3}
+  - _key: Wyrm
+    _asset: {fileID: 7047071808034003207, guid: 56cfce455ea96f24db3c1e50f4e63428, type: 3}
+  - _key: Worm
+    _asset: {fileID: 2869484775107077768, guid: 02fb72886ca4e1c4dac3e7aa8658005d, type: 3}
+  - _key: Dryad
+    _asset: {fileID: 2340381995495642742, guid: 6a444f88cb3af7b4bae3075ae2f2971f, type: 3}
+  - _key: Obelisk
+    _asset: {fileID: 5757966825572879495, guid: 7089b986238acd74385a8db4a9ff2e41, type: 3}
+  - _key: GrassProp
+    _asset: {fileID: 7616443167380991442, guid: 65f2eb1c1ae17e447810ada007589a75, type: 3}
+  - _key: Altar
+    _asset: {fileID: 3877607585628578843, guid: f3d4e106f4dc5d440937eb75f6566ca6, type: 3}
+  - _key: DoorTP
+    _asset: {fileID: 8004694692500955873, guid: 845d5fc7e1d344e4ca0dec66f2d6534c, type: 3}
+  _enumGenerate: 0
+  _enumPath: 
+  _enumNamespace: 

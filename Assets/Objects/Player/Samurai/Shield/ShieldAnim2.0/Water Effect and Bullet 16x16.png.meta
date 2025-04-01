@@ -1,0 +1,856 @@
+fileFormatVersion: 2
+guid: 0e5f958cd742e6149853eda62e785971
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 40
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_24
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5286c0a5a2fccde40bef98411a67742a
+      internalID: -909280814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_25
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f21e1a5990005dc418b835452c38e8fc
+      internalID: -469439931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_26
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb4e8f51f6601f46ac2ce0e4e14505a
+      internalID: 166233148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_27
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b400e3d3a7808464485623eaa959fdcf
+      internalID: -1337605589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_28
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e42fa525b14809489095fc4c66a0aa0
+      internalID: 294134784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_29
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3acd176699d1cbe4cb480b13053e2649
+      internalID: -1026774942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_54
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0851ea9ec0e4d7640854a5461b0a1264
+      internalID: 1871327325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_55
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc5b7dc7c4318f4280e230200617adb
+      internalID: 1520599293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_56
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd92b9c46f27ef4d804a4fc9afbf41b
+      internalID: -1124675677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_57
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f411f6f30e44a49adc36f78e2e3df1
+      internalID: 952294472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_58
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e823848c36eb8354e9768be03c77400a
+      internalID: -167734976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_59
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41116edd5ec214543ba481db2e8147d2
+      internalID: 90793764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_179
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600ac6eaf53874146a0a723bb044a98f
+      internalID: -1341409996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_234
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d47f6e0d863eec24ba0705f5cc74f887
+      internalID: -1516730590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_235
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1c366f008835aa439a4b3ebaf8117ad
+      internalID: 483380462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_236
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64f68c81d3ff97438c2dff17e2630de
+      internalID: -858834849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_370
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 5
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63dca10efd935b14b8bebbec1be98634
+      internalID: -358191585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Water Effect and Bullet 16x16_0: -572481604
+      Water Effect and Bullet 16x16_1: -771241730
+      Water Effect and Bullet 16x16_10: -1278481890
+      Water Effect and Bullet 16x16_100: -122516812
+      Water Effect and Bullet 16x16_101: 2094572694
+      Water Effect and Bullet 16x16_102: -2111388699
+      Water Effect and Bullet 16x16_103: -1748718029
+      Water Effect and Bullet 16x16_104: 583658604
+      Water Effect and Bullet 16x16_105: -1566023163
+      Water Effect and Bullet 16x16_106: 1414258660
+      Water Effect and Bullet 16x16_107: -1406728373
+      Water Effect and Bullet 16x16_108: 1035150721
+      Water Effect and Bullet 16x16_109: -1538653578
+      Water Effect and Bullet 16x16_11: -1523038078
+      Water Effect and Bullet 16x16_110: 1938053363
+      Water Effect and Bullet 16x16_111: -1771385973
+      Water Effect and Bullet 16x16_112: 1693457656
+      Water Effect and Bullet 16x16_113: -1876449511
+      Water Effect and Bullet 16x16_114: -110443992
+      Water Effect and Bullet 16x16_115: -1641579216
+      Water Effect and Bullet 16x16_116: -1208044924
+      Water Effect and Bullet 16x16_117: -869774703
+      Water Effect and Bullet 16x16_118: -1472533280
+      Water Effect and Bullet 16x16_119: -762009166
+      Water Effect and Bullet 16x16_12: 1226661761
+      Water Effect and Bullet 16x16_120: 274450180
+      Water Effect and Bullet 16x16_121: -1247824308
+      Water Effect and Bullet 16x16_122: -782852954
+      Water Effect and Bullet 16x16_123: 855706205
+      Water Effect and Bullet 16x16_124: -1260164221
+      Water Effect and Bullet 16x16_125: 1844207241
+      Water Effect and Bullet 16x16_126: -1011723184
+      Water Effect and Bullet 16x16_127: -2031908566
+      Water Effect and Bullet 16x16_128: 1913727490
+      Water Effect and Bullet 16x16_129: 1021218817
+      Water Effect and Bullet 16x16_13: 1441419633
+      Water Effect and Bullet 16x16_130: 1060743444
+      Water Effect and Bullet 16x16_131: 1908406633
+      Water Effect and Bullet 16x16_132: -2077590348
+      Water Effect and Bullet 16x16_133: -1294518630
+      Water Effect and Bullet 16x16_134: 766853021
+      Water Effect and Bullet 16x16_135: -1986053694
+      Water Effect and Bullet 16x16_136: -944204782
+      Water Effect and Bullet 16x16_137: -1920366979
+      Water Effect and Bullet 16x16_138: -1763957247
+      Water Effect and Bullet 16x16_139: 1287250678
+      Water Effect and Bullet 16x16_14: -807469251
+      Water Effect and Bullet 16x16_140: -401282884
+      Water Effect and Bullet 16x16_141: 769250096
+      Water Effect and Bullet 16x16_142: 2017918049
+      Water Effect and Bullet 16x16_143: 231348109
+      Water Effect and Bullet 16x16_144: 1283874453
+      Water Effect and Bullet 16x16_145: -1416590507
+      Water Effect and Bullet 16x16_146: -1253729528
+      Water Effect and Bullet 16x16_147: 526226608
+      Water Effect and Bullet 16x16_148: 1280299929
+      Water Effect and Bullet 16x16_149: 756796608
+      Water Effect and Bullet 16x16_15: -947324915
+      Water Effect and Bullet 16x16_150: -843163029
+      Water Effect and Bullet 16x16_151: 264955913
+      Water Effect and Bullet 16x16_152: 288712839
+      Water Effect and Bullet 16x16_153: -1808419515
+      Water Effect and Bullet 16x16_154: -1485849343
+      Water Effect and Bullet 16x16_155: -1238947387
+      Water Effect and Bullet 16x16_156: -592137522
+      Water Effect and Bullet 16x16_157: -1027188125
+      Water Effect and Bullet 16x16_158: -309711902
+      Water Effect and Bullet 16x16_159: -1842142642
+      Water Effect and Bullet 16x16_16: 320628264
+      Water Effect and Bullet 16x16_160: -757885161
+      Water Effect and Bullet 16x16_161: -69293832
+      Water Effect and Bullet 16x16_162: 2031210255
+      Water Effect and Bullet 16x16_163: -2044196696
+      Water Effect and Bullet 16x16_164: 1808054770
+      Water Effect and Bullet 16x16_165: -1897109559
+      Water Effect and Bullet 16x16_166: -1154843545
+      Water Effect and Bullet 16x16_167: 1219663901
+      Water Effect and Bullet 16x16_168: -599291416
+      Water Effect and Bullet 16x16_169: 909918424
+      Water Effect and Bullet 16x16_17: -2111821013
+      Water Effect and Bullet 16x16_170: 1675791660
+      Water Effect and Bullet 16x16_171: 899422238
+      Water Effect and Bullet 16x16_172: -1138195936
+      Water Effect and Bullet 16x16_173: 1128716078
+      Water Effect and Bullet 16x16_174: -1997452885
+      Water Effect and Bullet 16x16_175: 249261521
+      Water Effect and Bullet 16x16_176: 1929329780
+      Water Effect and Bullet 16x16_177: -664324235
+      Water Effect and Bullet 16x16_178: 202215604
+      Water Effect and Bullet 16x16_179: -1341409996
+      Water Effect and Bullet 16x16_18: -1194087113
+      Water Effect and Bullet 16x16_180: 1978124874
+      Water Effect and Bullet 16x16_181: -844692451
+      Water Effect and Bullet 16x16_182: -1179005943
+      Water Effect and Bullet 16x16_183: 1262914723
+      Water Effect and Bullet 16x16_184: 1919185865
+      Water Effect and Bullet 16x16_185: 1939522898
+      Water Effect and Bullet 16x16_186: -942549165
+      Water Effect and Bullet 16x16_187: -826874826
+      Water Effect and Bullet 16x16_188: 833600697
+      Water Effect and Bullet 16x16_189: -966807132
+      Water Effect and Bullet 16x16_19: 1429829617
+      Water Effect and Bullet 16x16_190: -876438183
+      Water Effect and Bullet 16x16_191: 166555853
+      Water Effect and Bullet 16x16_192: 1623147151
+      Water Effect and Bullet 16x16_193: 879237603
+      Water Effect and Bullet 16x16_194: -1941897382
+      Water Effect and Bullet 16x16_195: -805712877
+      Water Effect and Bullet 16x16_196: 535679896
+      Water Effect and Bullet 16x16_197: -372342761
+      Water Effect and Bullet 16x16_198: -382086218
+      Water Effect and Bullet 16x16_199: 1479490024
+      Water Effect and Bullet 16x16_2: 17602339
+      Water Effect and Bullet 16x16_20: 1441758555
+      Water Effect and Bullet 16x16_200: 37306482
+      Water Effect and Bullet 16x16_201: 1123740892
+      Water Effect and Bullet 16x16_202: -1508311169
+      Water Effect and Bullet 16x16_203: 159060313
+      Water Effect and Bullet 16x16_204: 2053363167
+      Water Effect and Bullet 16x16_205: 857446450
+      Water Effect and Bullet 16x16_206: 164950866
+      Water Effect and Bullet 16x16_207: 477100462
+      Water Effect and Bullet 16x16_208: -844077169
+      Water Effect and Bullet 16x16_209: 1320523751
+      Water Effect and Bullet 16x16_21: -1758072687
+      Water Effect and Bullet 16x16_210: 1278180528
+      Water Effect and Bullet 16x16_211: 1725579699
+      Water Effect and Bullet 16x16_212: 1465215755
+      Water Effect and Bullet 16x16_213: 805180733
+      Water Effect and Bullet 16x16_214: 587703520
+      Water Effect and Bullet 16x16_215: 77302845
+      Water Effect and Bullet 16x16_216: -337335179
+      Water Effect and Bullet 16x16_217: -1880277273
+      Water Effect and Bullet 16x16_218: -642433144
+      Water Effect and Bullet 16x16_219: -1124014021
+      Water Effect and Bullet 16x16_22: 228382831
+      Water Effect and Bullet 16x16_220: -452529076
+      Water Effect and Bullet 16x16_221: -1535485931
+      Water Effect and Bullet 16x16_222: 1486463303
+      Water Effect and Bullet 16x16_223: -692385240
+      Water Effect and Bullet 16x16_224: -1406078246
+      Water Effect and Bullet 16x16_225: 734038105
+      Water Effect and Bullet 16x16_226: 1572462737
+      Water Effect and Bullet 16x16_227: 1865835385
+      Water Effect and Bullet 16x16_228: -1073071306
+      Water Effect and Bullet 16x16_229: 1281747702
+      Water Effect and Bullet 16x16_23: -112540272
+      Water Effect and Bullet 16x16_230: 1883834503
+      Water Effect and Bullet 16x16_231: -422645029
+      Water Effect and Bullet 16x16_232: -1177117976
+      Water Effect and Bullet 16x16_233: -963769145
+      Water Effect and Bullet 16x16_234: -1516730590
+      Water Effect and Bullet 16x16_235: 483380462
+      Water Effect and Bullet 16x16_236: -858834849
+      Water Effect and Bullet 16x16_237: 1039363788
+      Water Effect and Bullet 16x16_238: 455427180
+      Water Effect and Bullet 16x16_239: -1126699675
+      Water Effect and Bullet 16x16_24: -909280814
+      Water Effect and Bullet 16x16_240: 559638477
+      Water Effect and Bullet 16x16_241: -931611124
+      Water Effect and Bullet 16x16_242: 1928849980
+      Water Effect and Bullet 16x16_243: 692222447
+      Water Effect and Bullet 16x16_244: -2038256193
+      Water Effect and Bullet 16x16_245: -324153176
+      Water Effect and Bullet 16x16_246: -1011970656
+      Water Effect and Bullet 16x16_247: -2048593877
+      Water Effect and Bullet 16x16_248: -1342452981
+      Water Effect and Bullet 16x16_249: -1538095758
+      Water Effect and Bullet 16x16_25: -469439931
+      Water Effect and Bullet 16x16_250: 1230519458
+      Water Effect and Bullet 16x16_251: 919918013
+      Water Effect and Bullet 16x16_252: -770453100
+      Water Effect and Bullet 16x16_253: -2037248258
+      Water Effect and Bullet 16x16_254: 1897056536
+      Water Effect and Bullet 16x16_255: -113403008
+      Water Effect and Bullet 16x16_256: -1667317359
+      Water Effect and Bullet 16x16_257: -866942367
+      Water Effect and Bullet 16x16_258: 176769377
+      Water Effect and Bullet 16x16_259: -1512191198
+      Water Effect and Bullet 16x16_26: 166233148
+      Water Effect and Bullet 16x16_260: 1365341657
+      Water Effect and Bullet 16x16_261: -237974546
+      Water Effect and Bullet 16x16_262: -321484218
+      Water Effect and Bullet 16x16_263: -1264855795
+      Water Effect and Bullet 16x16_264: 570724716
+      Water Effect and Bullet 16x16_265: 624201132
+      Water Effect and Bullet 16x16_266: 569609231
+      Water Effect and Bullet 16x16_267: -924644525
+      Water Effect and Bullet 16x16_268: 1787266161
+      Water Effect and Bullet 16x16_269: 1288624292
+      Water Effect and Bullet 16x16_27: -1337605589
+      Water Effect and Bullet 16x16_270: 1637144175
+      Water Effect and Bullet 16x16_271: -44824655
+      Water Effect and Bullet 16x16_272: 1120427403
+      Water Effect and Bullet 16x16_273: 1315199273
+      Water Effect and Bullet 16x16_274: 1737603106
+      Water Effect and Bullet 16x16_275: -235666404
+      Water Effect and Bullet 16x16_276: -1598160011
+      Water Effect and Bullet 16x16_277: 925659740
+      Water Effect and Bullet 16x16_278: 628831551
+      Water Effect and Bullet 16x16_279: 80845157
+      Water Effect and Bullet 16x16_28: 294134784
+      Water Effect and Bullet 16x16_280: -1184746239
+      Water Effect and Bullet 16x16_281: -396668058
+      Water Effect and Bullet 16x16_282: 1689727766
+      Water Effect and Bullet 16x16_283: 735376255
+      Water Effect and Bullet 16x16_284: -717893248
+      Water Effect and Bullet 16x16_285: 789769513
+      Water Effect and Bullet 16x16_286: 2077067639
+      Water Effect and Bullet 16x16_287: 627287148
+      Water Effect and Bullet 16x16_288: 1108867012
+      Water Effect and Bullet 16x16_289: 1101856514
+      Water Effect and Bullet 16x16_29: -1026774942
+      Water Effect and Bullet 16x16_290: 333972832
+      Water Effect and Bullet 16x16_291: -1859110774
+      Water Effect and Bullet 16x16_292: -2023348832
+      Water Effect and Bullet 16x16_293: 137468570
+      Water Effect and Bullet 16x16_294: 1280319169
+      Water Effect and Bullet 16x16_295: 1913436684
+      Water Effect and Bullet 16x16_296: 82899057
+      Water Effect and Bullet 16x16_297: 370491844
+      Water Effect and Bullet 16x16_298: -520258494
+      Water Effect and Bullet 16x16_299: -1648164207
+      Water Effect and Bullet 16x16_3: -1103226876
+      Water Effect and Bullet 16x16_30: -75509332
+      Water Effect and Bullet 16x16_300: -1471885522
+      Water Effect and Bullet 16x16_301: 236832252
+      Water Effect and Bullet 16x16_302: 1770529380
+      Water Effect and Bullet 16x16_303: 1837475293
+      Water Effect and Bullet 16x16_304: -76924994
+      Water Effect and Bullet 16x16_305: 347461421
+      Water Effect and Bullet 16x16_306: 913715271
+      Water Effect and Bullet 16x16_307: 706051943
+      Water Effect and Bullet 16x16_308: -221669556
+      Water Effect and Bullet 16x16_309: 361887675
+      Water Effect and Bullet 16x16_31: 1575185218
+      Water Effect and Bullet 16x16_310: -1841151909
+      Water Effect and Bullet 16x16_311: -631926850
+      Water Effect and Bullet 16x16_312: -1697661464
+      Water Effect and Bullet 16x16_313: 1415315443
+      Water Effect and Bullet 16x16_314: -664268042
+      Water Effect and Bullet 16x16_315: -283814503
+      Water Effect and Bullet 16x16_316: -1608853046
+      Water Effect and Bullet 16x16_317: -117028650
+      Water Effect and Bullet 16x16_318: 365110252
+      Water Effect and Bullet 16x16_319: -2143607546
+      Water Effect and Bullet 16x16_32: 1953155959
+      Water Effect and Bullet 16x16_320: -1229614889
+      Water Effect and Bullet 16x16_321: -999859660
+      Water Effect and Bullet 16x16_322: 880598964
+      Water Effect and Bullet 16x16_323: -1078514675
+      Water Effect and Bullet 16x16_324: 1319395954
+      Water Effect and Bullet 16x16_325: -2061788199
+      Water Effect and Bullet 16x16_326: -1682981473
+      Water Effect and Bullet 16x16_327: -1130577095
+      Water Effect and Bullet 16x16_328: -795817080
+      Water Effect and Bullet 16x16_329: -1065143815
+      Water Effect and Bullet 16x16_33: -1949649467
+      Water Effect and Bullet 16x16_330: 73237982
+      Water Effect and Bullet 16x16_331: -2123992020
+      Water Effect and Bullet 16x16_332: -1563844896
+      Water Effect and Bullet 16x16_333: -2106243699
+      Water Effect and Bullet 16x16_334: -372541897
+      Water Effect and Bullet 16x16_335: -1543999257
+      Water Effect and Bullet 16x16_336: -954616618
+      Water Effect and Bullet 16x16_337: -563781557
+      Water Effect and Bullet 16x16_338: 1836215256
+      Water Effect and Bullet 16x16_339: 95425559
+      Water Effect and Bullet 16x16_34: -432979908
+      Water Effect and Bullet 16x16_340: 615940719
+      Water Effect and Bullet 16x16_341: -1973625739
+      Water Effect and Bullet 16x16_342: -1147062808
+      Water Effect and Bullet 16x16_343: -1094621710
+      Water Effect and Bullet 16x16_344: -1842707788
+      Water Effect and Bullet 16x16_345: 1958029074
+      Water Effect and Bullet 16x16_346: 1454347993
+      Water Effect and Bullet 16x16_347: 433319675
+      Water Effect and Bullet 16x16_348: 606167510
+      Water Effect and Bullet 16x16_349: -1535231620
+      Water Effect and Bullet 16x16_35: 1864740585
+      Water Effect and Bullet 16x16_350: 1793608048
+      Water Effect and Bullet 16x16_351: -9158101
+      Water Effect and Bullet 16x16_352: 842870636
+      Water Effect and Bullet 16x16_353: -22119198
+      Water Effect and Bullet 16x16_354: 47226685
+      Water Effect and Bullet 16x16_355: -1936705046
+      Water Effect and Bullet 16x16_356: 1861146435
+      Water Effect and Bullet 16x16_357: -437523226
+      Water Effect and Bullet 16x16_358: -1811997981
+      Water Effect and Bullet 16x16_359: 1886035490
+      Water Effect and Bullet 16x16_36: 357307720
+      Water Effect and Bullet 16x16_360: 1081814763
+      Water Effect and Bullet 16x16_361: -1179242625
+      Water Effect and Bullet 16x16_362: 1019464616
+      Water Effect and Bullet 16x16_363: -1542248369
+      Water Effect and Bullet 16x16_364: 1684096256
+      Water Effect and Bullet 16x16_365: 455424449
+      Water Effect and Bullet 16x16_366: 2092118515
+      Water Effect and Bullet 16x16_367: -965978381
+      Water Effect and Bullet 16x16_368: -1157607687
+      Water Effect and Bullet 16x16_369: -1201732238
+      Water Effect and Bullet 16x16_37: 2068101601
+      Water Effect and Bullet 16x16_370: -358191585
+      Water Effect and Bullet 16x16_371: -2063147020
+      Water Effect and Bullet 16x16_38: 1497837830
+      Water Effect and Bullet 16x16_39: 1701213213
+      Water Effect and Bullet 16x16_4: 1941971356
+      Water Effect and Bullet 16x16_40: -240810791
+      Water Effect and Bullet 16x16_41: 1593876191
+      Water Effect and Bullet 16x16_42: 70247091
+      Water Effect and Bullet 16x16_43: 296572473
+      Water Effect and Bullet 16x16_44: 1114956294
+      Water Effect and Bullet 16x16_45: -613749490
+      Water Effect and Bullet 16x16_46: 7370230
+      Water Effect and Bullet 16x16_47: 1376358406
+      Water Effect and Bullet 16x16_48: -66406439
+      Water Effect and Bullet 16x16_49: -1106582614
+      Water Effect and Bullet 16x16_5: 1884911457
+      Water Effect and Bullet 16x16_50: -775560638
+      Water Effect and Bullet 16x16_51: -228334390
+      Water Effect and Bullet 16x16_52: -1207643419
+      Water Effect and Bullet 16x16_53: -466730337
+      Water Effect and Bullet 16x16_54: 1871327325
+      Water Effect and Bullet 16x16_55: 1520599293
+      Water Effect and Bullet 16x16_56: -1124675677
+      Water Effect and Bullet 16x16_57: 952294472
+      Water Effect and Bullet 16x16_58: -167734976
+      Water Effect and Bullet 16x16_59: 90793764
+      Water Effect and Bullet 16x16_6: -2121425308
+      Water Effect and Bullet 16x16_60: 1526619568
+      Water Effect and Bullet 16x16_61: 252564172
+      Water Effect and Bullet 16x16_62: 905334399
+      Water Effect and Bullet 16x16_63: -1537284819
+      Water Effect and Bullet 16x16_64: 2024780171
+      Water Effect and Bullet 16x16_65: -714743723
+      Water Effect and Bullet 16x16_66: 790389572
+      Water Effect and Bullet 16x16_67: 1289950477
+      Water Effect and Bullet 16x16_68: 2134662771
+      Water Effect and Bullet 16x16_69: 1211858809
+      Water Effect and Bullet 16x16_7: -908843614
+      Water Effect and Bullet 16x16_70: -804138246
+      Water Effect and Bullet 16x16_71: 1130958546
+      Water Effect and Bullet 16x16_72: -2010825638
+      Water Effect and Bullet 16x16_73: -1213434984
+      Water Effect and Bullet 16x16_74: 1892357944
+      Water Effect and Bullet 16x16_75: 271792500
+      Water Effect and Bullet 16x16_76: -1718915238
+      Water Effect and Bullet 16x16_77: 1356370754
+      Water Effect and Bullet 16x16_78: 959314529
+      Water Effect and Bullet 16x16_79: 2147347914
+      Water Effect and Bullet 16x16_8: -2120281854
+      Water Effect and Bullet 16x16_80: 1286708857
+      Water Effect and Bullet 16x16_81: 1944168046
+      Water Effect and Bullet 16x16_82: 552368794
+      Water Effect and Bullet 16x16_83: -664708927
+      Water Effect and Bullet 16x16_84: -105214217
+      Water Effect and Bullet 16x16_85: -2127357265
+      Water Effect and Bullet 16x16_86: 182852402
+      Water Effect and Bullet 16x16_87: -76389748
+      Water Effect and Bullet 16x16_88: 1385176118
+      Water Effect and Bullet 16x16_89: 153699974
+      Water Effect and Bullet 16x16_9: 445671315
+      Water Effect and Bullet 16x16_90: 1597132105
+      Water Effect and Bullet 16x16_91: -196114060
+      Water Effect and Bullet 16x16_92: -673797820
+      Water Effect and Bullet 16x16_93: 1516971285
+      Water Effect and Bullet 16x16_94: -1067503633
+      Water Effect and Bullet 16x16_95: 205366075
+      Water Effect and Bullet 16x16_96: -1099435632
+      Water Effect and Bullet 16x16_97: 680047588
+      Water Effect and Bullet 16x16_98: -1478707865
+      Water Effect and Bullet 16x16_99: -708940837
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

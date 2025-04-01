@@ -1,0 +1,33 @@
+{
+  "Rects": null,
+  "Def": {
+    "__cHei": 10,
+    "__cWid": 11,
+    "cachedPixelData": {
+      "opaqueTiles": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+      "averageColors": "f686f687f686f785f686f687f687f686f686f488fffff588f389f588f598f588f389f389f588f488f488fffff687f588f687f687f588f488f488f588f488f588f588f686f686f685f785f686f587f587f686f687f588f588fffffffffffffffff587f488f488f587f587fffffffff787f688f788f888f887f687f687f887f777f588fffff599f389f589f698f688f489f489f688f588f588fffff788f588f788f798f698f489f489f698f688f688f688f887f787f887f887f788f688f688f788f788f588f588fffffffffffffffff688f588f588f688f688ffffffff"
+    },
+    "customData": [
+
+    ],
+    "embedAtlas": null,
+    "enumTags": [
+
+    ],
+    "identifier": "Water_Tileset",
+    "padding": 0,
+    "pxHei": 160,
+    "pxWid": 176,
+    "relPath": "../Objects/Background n tiles/Forest Tiles/Sprites_Water_Tileset.png",
+    "savedSelections": [
+
+    ],
+    "spacing": 0,
+    "tags": [
+
+    ],
+    "tagsSourceEnumUid": null,
+    "tileGridSize": 16,
+    "uid": 20
+  }
+}
