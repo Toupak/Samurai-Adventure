@@ -15,10 +15,15 @@ public class SamuraiFireball : MonoBehaviour
     public GameObject castingParticlePrefab;
     //transform.position + offset ?
 
-
     public AudioClip channeling;
     public AudioClip fullyChannelled;
     public AudioClip oom;
+
+    //////
+    public AudioClip fullyChanneledLoop;
+    public GameObject fullyChanneledParticleLoopPrefab;
+    private GameObject fullyChanneledParticleLoop;
+    //////
 
     public int manaCostBigFireball;
     public int manaCostSmallFireball;
@@ -38,6 +43,7 @@ public class SamuraiFireball : MonoBehaviour
     private SamuraiMana samuraiMana;
 
     private AudioSource channelingTemp;
+    private AudioSource fullyChanneledTemp;
     private GameObject castingParticleTemp;
     
     private bool isIndicatorDisplayed;
@@ -85,9 +91,10 @@ public class SamuraiFireball : MonoBehaviour
     private void CastFireball(bool isBigFireball)
     {
         lastFireballTimeStamp = Time.time;
-        
-        if (castingParticleTemp != null)
-            Destroy(castingParticleTemp);
+
+        DestroyTemporarySoundsOnBigFireballCast();
+
+
         isCharging = false;
 
         Vector2 spawnDirection;
@@ -100,15 +107,27 @@ public class SamuraiFireball : MonoBehaviour
 
         GameObject fireballTempPrefab = isBigFireball ? bigFireballPrefab : smallFireballPrefab;
 
-        if (channelingTemp != null)
-            Destroy(channelingTemp.gameObject);
-
         GameObject fireballTemp = Instantiate(fireballTempPrefab, spawnPosition, Quaternion.identity);
         fireballTemp.GetComponent<FireballProjectile>().Setup(spawnDirection);
 
         samuraiMana.ConsumeMana(isBigFireball ? manaCostBigFireball : manaCostSmallFireball);
 
         OnCastFireball.Invoke();
+    }
+
+    private void DestroyTemporarySoundsOnBigFireballCast()
+    {
+        if (castingParticleTemp != null)
+            Destroy(castingParticleTemp);
+
+        if (channelingTemp != null)
+            Destroy(channelingTemp.gameObject);
+
+        if (fullyChanneledTemp != null)
+            Destroy(fullyChanneledTemp.gameObject);
+
+        if (fullyChanneledParticleLoop != null)
+            Destroy(fullyChanneledParticleLoop);
     }
 
     private void ChannelCast()
@@ -131,7 +150,11 @@ public class SamuraiFireball : MonoBehaviour
             Destroy(channelingTemp.gameObject);
 
         SFXManager.Instance.PlaySFX(fullyChannelled);
+        fullyChanneledTemp = SFXManager.Instance.PlaySFX(fullyChanneledLoop, volume: 0.3f, loop: true);
+
         castingParticleTemp.GetComponent<Animator>().Play("FireBallParticle");
+
+        fullyChanneledParticleLoop = Instantiate(fullyChanneledParticleLoopPrefab, transform.position + Vector3.up * 0.5f, Quaternion.identity, transform);
     }
 
     private bool CanCast()
