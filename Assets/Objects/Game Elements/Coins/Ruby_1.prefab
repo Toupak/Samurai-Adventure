@@ -138,7 +138,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pickUpSound: {fileID: 8300000, guid: 2d7b3ff9397a6a748b743147bb3a8ca0, type: 3}
   timeBeforePickUp: 0.3
-  coinAmount: 5
+  coinAmount: 1
   speed: 4
   flyForDuration: 0.3
 --- !u!114 &7207719924123179278

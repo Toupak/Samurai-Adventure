@@ -34,7 +34,7 @@ public class DeathScreen : MonoBehaviour
 
     private void Update()
     {
-        if (areDeathButtonsDisplayed && PlayerInput.GetAttackInput())
+        if (areDeathButtonsDisplayed && PlayerInput.GetInteractInput())
         {
             StartCoroutine(ContinueGame());
             areDeathButtonsDisplayed = false;

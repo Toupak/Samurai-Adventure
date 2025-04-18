@@ -10,6 +10,7 @@ public class Obelisk : Trigger
 
     public bool isSpawner;
     public GameObject triggerObject;
+    public AudioClip success;
 
     public List<Sprite> brokenPillars;
     public List<SpriteRenderer> shadowsBrokenPillars;
@@ -69,6 +70,10 @@ public class Obelisk : Trigger
     {
         isActivated = false;
         spriteRenderer.color = OGColor;
+
+        if (success != null)
+            SFXManager.Instance.PlaySFX(success);
+
         SpawnDestroyedObelisk();
         OnTrigger.Invoke();
     }

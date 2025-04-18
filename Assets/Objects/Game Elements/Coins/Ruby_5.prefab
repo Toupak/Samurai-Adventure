@@ -56,6 +56,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.139
       objectReference: {fileID: 0}
+    - target: {fileID: 8340679629592648100, guid: 797f1388268dad04982e5c197076ffbb, type: 3}
+      propertyPath: coinAmount
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8626856332223124935, guid: 797f1388268dad04982e5c197076ffbb, type: 3}
       propertyPath: m_Sprite
       value: 

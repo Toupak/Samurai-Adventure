@@ -37,7 +37,6 @@ public class SamuraiMana : MonoBehaviour
     private void UpdateMana(int mana)
     {
         currentMana = Mathf.Clamp(currentMana + mana, 0, maxMana);
-        Debug.Log("le mana devrait regen" + mana);
         OnManaUpdate.Invoke(currentMana, maxMana);
     }
 }

@@ -151,6 +151,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Half Key_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 325
+        width: 6
+        height: 7
+      alignment: 9
+      pivot: {x: 0.5, y: 0.31427875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 242e3fc9e1a3ab8459ac6d1640c54eaa
+      internalID: -643922455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -164,6 +185,7 @@ TextureImporter:
     nameFileIdTable:
       GIGAEMPTY: 105912556
       Half Key_0: 1104316375
+      Half Key_1: -643922455
       Props_0: -540665845
       Props_1: 1839582349
       Props_2: -1308631274

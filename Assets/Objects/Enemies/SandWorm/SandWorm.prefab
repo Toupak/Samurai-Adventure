@@ -144,9 +144,10 @@ MonoBehaviour:
   OnBump:
     m_PersistentCalls:
       m_Calls: []
-  hp: 12
-  temperatureDecreaseSpeed: 0.5
   isInvincible: 0
+  cantRespawn: 0
+  hp: 10
+  temperatureDecreaseSpeed: 0.5
   maxHp: 0
 --- !u!114 &8779770047291870779
 MonoBehaviour:
@@ -171,6 +172,9 @@ MonoBehaviour:
       m_Calls: []
   groupID: 0
   isPacific: 0
+  isPatrolling: 0
+  patrolPoints: []
+  delayBeforeBouncing: 0
   weaponColliders:
   - {fileID: 6984944671131181264}
   - {fileID: 7696818540513483494}

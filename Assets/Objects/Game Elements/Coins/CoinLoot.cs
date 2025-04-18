@@ -47,12 +47,12 @@ public class CoinLoot : ItemLoot
 
     protected override void PickUpItemEffect()
     {
-        AddCoinAmount(); // Invoke un event ?
+        AddCoinAmount();
     }
 
     private void AddCoinAmount()
     {
-        
+        CoinManager.Instance.AddCoinAmount(coinAmount);
     }
 
     public void IsThrownInDirection(Vector2 direction)

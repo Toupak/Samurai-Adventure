@@ -12,7 +12,7 @@ public class LockEnemies : MonoBehaviour
 
     private PlayerHealth playerHealth;
 
-    private Vector3 offsetToCenter = new Vector3(0.0f, 0.3f, 0.0f);
+    public Vector3 offsetToCenter = new Vector3(0.0f, 0.3f, 0.0f);
 
     private bool wasJoystickReleased = true;
 

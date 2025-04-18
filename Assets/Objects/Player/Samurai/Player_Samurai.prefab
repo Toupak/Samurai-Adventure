@@ -603,7 +603,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 6.98, y: -5.89}
+  m_AnchoredPosition: {x: 42.25, y: -30.05}
   m_SizeDelta: {x: 1707, y: 919}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &8518826570871853697
@@ -1090,6 +1090,7 @@ GameObject:
   - component: {fileID: 5587592843495454269}
   - component: {fileID: 1257980895494499987}
   - component: {fileID: 8106572313180829156}
+  - component: {fileID: 522532454053537318}
   - component: {fileID: 1421656951344151316}
   - component: {fileID: 8864142293947555618}
   - component: {fileID: 8887252398930187549}
@@ -1138,7 +1139,7 @@ MonoBehaviour:
   remnantImageCount: 3
   speed: 5.5
   dashSpeed: 12
-  cooldownDash: 0.8
+  cooldownDash: 1.5
   dashDuration: 0.2
   attackDashSpeed: 5
   decelerationSpeed: 50
@@ -1162,8 +1163,8 @@ MonoBehaviour:
   OnRestoreHealth:
     m_PersistentCalls:
       m_Calls: []
-  maxHearts: 6
-  hearts: 4
+  maxHearts: 3
+  hearts: 1
   bleedDuration: 0.3
   bleedScreen: {fileID: 0}
   InvincibilityDuration: 2
@@ -1195,7 +1196,7 @@ MonoBehaviour:
   - {fileID: 558008589448153240}
   attackDuration: 0.33
   comboWindow: 0.5
-  zoom: 6.5
+  zoom: 6.4
   zoomDuration: 0.1
   whichCombo: 0
 --- !u!114 &5908385258683445291
@@ -1231,10 +1232,12 @@ MonoBehaviour:
       m_Calls: []
   smallFireballPrefab: {fileID: 2449366991112246801, guid: 72d2fb0231c55ad439e01eb4f22c9add, type: 3}
   bigFireballPrefab: {fileID: 7492915943800155628, guid: e8874d7b6c2d7cc418d0676b7211d732, type: 3}
-  castingParticlePrefab: {fileID: 0}
+  castingParticlePrefab: {fileID: 7032473742596145815, guid: 32bc3a6ebb4d6ba4787c515e2288d0b6, type: 3}
   channeling: {fileID: 8300000, guid: 063a9338bdcbc8a4f99f95985ad3cc2a, type: 3}
   fullyChannelled: {fileID: 8300000, guid: 812ce57d81c1a1e42ba5bf0c923a9b39, type: 3}
   oom: {fileID: 8300000, guid: 7496b2650f701f04da5ff9c2dc407e05, type: 3}
+  fullyChanneledLoop: {fileID: 8300000, guid: 67a7dbce7fcd9b1478ad0b0e6643231c, type: 3}
+  fullyChanneledParticleLoopPrefab: {fileID: 865151791425263643, guid: e4c603ae984b5274aaed8e01f23475b2, type: 3}
   manaCostBigFireball: 3
   manaCostSmallFireball: 1
   cdFireball: 0
@@ -1258,9 +1261,9 @@ MonoBehaviour:
   shieldPrefab: {fileID: 7728115052280914773, guid: c947389a52d89c149acdaa7fc13cd87c, type: 3}
   currentShield: {fileID: 0}
   parryWindow: 0.25
-  parryBumpRange: 5
+  parryBumpRange: 1
   parryBumpSpeed: 8
-  shieldCD: 4
+  shieldCD: 2.5
   spawnOffset: {x: 0, y: 0.3}
   hasLootedShield: 0
 --- !u!114 &8642875619881000653
@@ -1277,6 +1280,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetIconPrefab: {fileID: 4632340909883961244, guid: 2fb13c27e7b663e4cb98407d462a2f98, type: 3}
   lockRange: 8
+  offsetToCenter: {x: 0, y: 2, z: 0}
 --- !u!114 &1560418630981525249
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1394,6 +1398,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9af7163e1f6f13946a5931569eba4b20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &522532454053537318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7610525375692465563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dd5b169d133ece43ac8c12f840d553d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1421656951344151316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1447,7 +1463,7 @@ Rigidbody2D:
     serializedVersion: 2
     m_Bits: 0
   m_Interpolate: 1
-  m_SleepingMode: 1
+  m_SleepingMode: 0
   m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!1 &7917144010020686902
@@ -1799,7 +1815,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -42.8, y: 26.9}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4601198395292329328

@@ -20,7 +20,7 @@ public static class PlayerInput
             return true;
         }
         if (Gamepad.current != null)
-            return Gamepad.current.aButton.wasPressedThisFrame;
+            return Gamepad.current.xButton.wasPressedThisFrame;
         else
             return Mouse.current.leftButton.wasPressedThisFrame;
     }
@@ -46,7 +46,7 @@ public static class PlayerInput
             return true;
         }
         if (Gamepad.current != null)
-            return Gamepad.current.xButton.wasPressedThisFrame;
+            return Gamepad.current.yButton.wasPressedThisFrame;
         else
             return Mouse.current.rightButton.wasPressedThisFrame;
     }
@@ -54,7 +54,7 @@ public static class PlayerInput
     public static bool GetRemoveShieldInput()
     {
         if (Gamepad.current != null)
-            return Gamepad.current.xButton.isPressed;
+            return Gamepad.current.yButton.isPressed;
         else
             return Mouse.current.rightButton.isPressed;
     }
@@ -82,7 +82,7 @@ public static class PlayerInput
     public static bool GetInteractInput()
     {
         if (Gamepad.current != null)
-            return Gamepad.current.yButton.wasPressedThisFrame;
+            return Gamepad.current.aButton.wasPressedThisFrame;
         else
             return Keyboard.current.eKey.wasPressedThisFrame;
     }
