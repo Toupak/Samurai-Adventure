@@ -27,6 +27,8 @@ public class SamuraiMovement : MonoBehaviour
     public float staggerDuration;
     public float knockbackSpeed;
 
+    public Shop shop;
+
     private PlayerHealth playerHealth;
     private SamuraiAttack playerAttack;
     private BubbleShield shield;
@@ -50,6 +52,7 @@ public class SamuraiMovement : MonoBehaviour
         samuraiFireball = GetComponent<SamuraiFireball>();
         rb = GetComponent<Rigidbody2D>();
         lockEnemies = GetComponent<LockEnemies>();
+        
 
         DialoguePanel.OnTriggerDialogue.AddListener(StopMovement);
         PlayerHealth.OnPlayerDeath.AddListener((_) => StopMovement());
@@ -202,7 +205,7 @@ public class SamuraiMovement : MonoBehaviour
     #region CONDITIONCHECK
     public bool IsBusy()
     {
-        return (IsDashing() || playerAttack.IsAttacking()) || IsStagger() || shield.IsShielded() || DialoguePanel.Instance.isReading;
+        return (IsDashing() || playerAttack.IsAttacking()) || IsStagger() || shield.IsShielded() || DialoguePanel.Instance.isReading; //|| shop.isShopping;
     }
 
     public bool IsStagger()

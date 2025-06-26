@@ -29047,16 +29047,16 @@
 						},
 						{
 							"__identifier": "DoorTP",
-							"__grid": [40,9],
+							"__grid": [32,0],
 							"__pivot": [0.5,0.5],
 							"__tags": [],
 							"__tile": null,
 							"__smartColor": "#FEAE34",
 							"iid": "2f3a0763-1030-11f0-8914-396cef346520",
-							"width": 16,
-							"height": 120,
+							"width": 187,
+							"height": 16,
 							"defUid": 187,
-							"px": [652,157],
+							"px": [524,-3],
 							"fieldInstances": [
 								{ "__identifier": "TargetDoor", "__type": "EntityRef", "__value": {
 									"entityIid": "ad5aa3f0-e920-11ef-acce-397424d72cf8",
@@ -29067,13 +29067,13 @@
 									"id": "V_String",
 									"params": ["ad5aa3f0-e920-11ef-acce-397424d72cf8"]
 								}] },
-								{ "__identifier": "SpawnPosition", "__type": "Point", "__value": { "cx": 37, "cy": 10 }, "__tile": null, "defUid": 189, "realEditorValues": [{
+								{ "__identifier": "SpawnPosition", "__type": "Point", "__value": { "cx": 33, "cy": 1 }, "__tile": null, "defUid": 189, "realEditorValues": [{
 									"id": "V_String",
-									"params": ["37,10"]
+									"params": ["33,1"]
 								}] }
 							],
-							"__worldX": 7027,
-							"__worldY": 1538
+							"__worldX": 6899,
+							"__worldY": 1378
 						}
 					]
 				},

@@ -33,7 +33,6 @@ public class SkullBossTrigger : Trigger
         hasBeenTriggered = true;
         boss.SetActive(true);
         invisibleWallOutofRoom.SetActive(true);
-        currentMusic = SFXManager.Instance.PlaySFXNoPitchModifier(bossMusic1, volume: 0.07f, loop: true);
     }
 
     private void ResetBoss()
@@ -43,11 +42,6 @@ public class SkullBossTrigger : Trigger
             boss.SetActive(false);
             invisibleWallOutofRoom.SetActive(false);
             boss.GetComponent<SkullBoss_Head>().RegenBoss();
-            if (currentMusic.isPlaying == true)
-            {
-                currentMusic.Stop();
-                Destroy(currentMusic.gameObject);
-            }
         }
     }
 

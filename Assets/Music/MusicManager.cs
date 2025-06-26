@@ -19,7 +19,7 @@ public class MusicManager : MonoBehaviour
     public AudioClip Dungeon;
     public AudioClip Boss;
 
-    private Musics currentMusicEnum;
+    private Musics? currentMusicEnum = null;
     private AudioSource currentMusic;
 
     void Start()

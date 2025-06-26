@@ -44,7 +44,7 @@ public class SkullBoss_Phase2 : MonoBehaviour
 
     private void SelectAttack()
     {
-        StartCoroutine(CircularLaserAttack());
+        StartCoroutine(LaserAttack());
         return;
 
         int whichAttackRandomizer = Random.Range(0, 3);

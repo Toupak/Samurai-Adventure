@@ -8,6 +8,7 @@ public class SaveData
 {
     public int maxHearts;
     public int halfHeartsLoot;
+    public int coinAmount;
 
     public Vector3 currentFountainPosition;
 

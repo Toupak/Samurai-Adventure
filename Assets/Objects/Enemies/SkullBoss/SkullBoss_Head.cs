@@ -126,8 +126,8 @@ public class SkullBoss_Head : MonoBehaviour
 
     public void ScreamAttack()
     {
-        if (!HandCanAttack())
-            return;
+        //if (!HandCanAttack())
+        //    return;
 
         PlayAngrySound();
         StartCoroutine(SpawnScreamParticle());
